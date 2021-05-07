@@ -30,6 +30,24 @@
             android:layout_height="wrap_content"
             android:text="HapticFeedback REJECT"
             />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/vibration_click_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibration Effect Click"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/vibration_double_click_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibration Effect Double Click"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/vibration_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibration Effect Custom"
+            />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
